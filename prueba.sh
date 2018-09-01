@@ -1,4 +1,6 @@
+#!/bin/bash
 
+while [[ 1 ]]; do
 
 lista=$(lsusb|awk '{ print $6 }')
 nombre=lista=$(lsusb|awk '{ print $7 }')
@@ -36,3 +38,4 @@ done
 
 
 #volumen log volumen fisico
+done
